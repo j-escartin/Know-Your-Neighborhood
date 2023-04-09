@@ -1,0 +1,32 @@
+spring:
+  security:
+      oauth2:
+        client:
+          registration:
+            google:
+              clientId: 384210192739-6st3agsf2b7a3p7hvsrhdcm0oag6ug00.apps.googleusercontent.com
+              clientSecret: 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
+              redirectUri: http://localhost:8080/oauth2/callback/google
+              scope:
+                - email
+                - profile
+            facebook:
+              clientId: 761286448744278
+              clientSecret: 7e18d9b9c3ce72ed39ef35a86fcc215e
+              redirectUri: http://localhost:8080/oauth2/callback/facebook
+              scope:
+                - email
+                - public_profile  
+          provider:
+            facebook:
+              authorizationUri: https://www.facebook.com/v3.0/dialog/oauth
+              tokenUri: https://graph.facebook.com/v3.0/oauth/access_token
+              userInfoUri: https://graph.facebook.com/v3.0/me?fields=name,email,picture.width(250).height(250)
+              
+app:
+  auth:
+    tokenSecret: C*F-JaNdRgUkXp2s5v8x/A?D(G+KbPeS9z$C&F)J@NcRfUjXn2r5u7x!A%D*G-Kas6v9y$B&E)H@McQfTjWnZr4u7w!z%C*FYp3s5v8y/B?E(H+MbQeThWmZq4t7w9z$gUkXp2s5u8x/A?D(G+KbPeShVmYq3t6w
+    tokenExpirationMsec: 900000
+  oauth2:
+    authorizedRedirectUris:
+      - http://localhost:3000/oauth2/redirect
