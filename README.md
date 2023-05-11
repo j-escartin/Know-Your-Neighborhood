@@ -2,11 +2,6 @@
 
 A project on API integration
 
-## Project Overview
-
-The Know-Your-Neighborhood application was developed using Spring Boot. The goal of this project is to rebuild the application using React.Js and Spring Boot and use existing APIs to log in and out. Your application should have a login button with an API available. Also, the scope of the project is to examine and compare different existing APIs sample by sample, assess their suitability, identify potential security issues, and use selected APIs on existing websites. to create a login.
-
-
 ## Experience from the Project
 
 - Backend design and development using Spring Boot and JPA Framework.
@@ -21,5 +16,16 @@ The Know-Your-Neighborhood application was developed using Spring Boot. The goal
 - MySQL WorkBench
 - Postman
 
-
 ## Result
+
+### About Us Page
+
+![Picture1](https://github.com/j-escartin/Know-Your-Neighborhood/assets/109270420/105ac9d8-9992-492c-8ccf-f769df840e19)
+
+### Home Page
+
+![Picture2](https://github.com/j-escartin/Know-Your-Neighborhood/assets/109270420/0c4de78a-e873-4a70-8712-136f76c7bf18)
+
+### Store List
+
+![Picture3](https://github.com/j-escartin/Know-Your-Neighborhood/assets/109270420/413523c2-d715-465a-8db6-2a48a0262683)
